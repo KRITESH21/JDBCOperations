@@ -1,2 +1,2 @@
-# JDBCOperations
+# JDBC Operations
 In this project, I have used Statement as well as Prepared Statement object to do CRUD operation using MySQL database. While doing this project I came to know about the difference between Statement and Prepared Statement, If the query we are using each time to fetch data from Database is same then we use Prepared Statement (as it is also called pre-compiled statement) it is compiled only once so that time will be saved. Prepared Statement is faster then Statement and very importantly SQL Injection is prevented if we use Prepared Statement object.
